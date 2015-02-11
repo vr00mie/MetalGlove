@@ -18,7 +18,7 @@
 #nav-trigger {
   display: none;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 1.0);
   width: 100%;
   padding: 10px 30px;
 }
@@ -54,24 +54,27 @@
 }
 
 nav#nav-main {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 10px 0;
   text-transform: uppercase;
   font-family: Open Sans;
   position: fixed;
   width: 100%;
+
+  top: 0px;
+  left: 0px;
 }
 
 nav#nav-main ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: left;
+  text-align: right;
 }
 
 nav#nav-main li {
   display: inline-block;
-  padding: 0 5px;
+  padding: 0 6px;
 
 }
 
@@ -82,16 +85,16 @@ nav#nav-main li:last-child {
 nav#nav-main a {
   display: block;
   color: #ffffff;
-  padding: 10px 30px;
+  padding: 20px 30px;
  }
 
 nav#nav-main a:hover {
-  color: #c0c0c0;
+  color: orange;
   text-decoration: none;
 }
 
 #nav-main a.active {
-  color: #c0c0c0;
+  color: orange;
 }
 
 nav#nav-mobile {
@@ -108,7 +111,7 @@ nav#nav-mobile ul {
   right: 0;
   margin-left: -30px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 1.0);
   margin-bottom: 0px !important;
 }
 
@@ -144,11 +147,6 @@ nav#nav-mobile a:hover {
     display: block; }
 }
 
-#nav-main img{
-max-width: 50px;
-max-height: 50px;
-}
-
 
 /* 
     ~~~~~~~~~~~~~~~~~~~~
@@ -160,9 +158,9 @@ section.module:last-child {
 }
 
 section.module h2 {
-  margin-bottom: 40px;
+  margin-bottom: 10px;
   font-family: Open Sans;
-  font-size: 30px;
+  font-size: 20px;
   text-align: left;
 }
 
@@ -197,10 +195,23 @@ section.module p:last-child {
   margin-bottom: 0;
 }
 
+section.module li {
+  display: inline-block;
+}
+
 section.module.content {
   padding: 40px 0;
   color: #ffffff;
   background-color: #181818;
+}
+
+@font-face{
+  font-family: "Portago ITC";
+  src: url("fonts/Portago_ITC.ttf");
+}
+
+#title {
+  font-family: "Portago ITC", "Open Sans";
 }
 
 section.module.content-2 a:hover {
@@ -212,7 +223,7 @@ section.module.content-2 h2{
 }
 
 section.module.parallax {
-  height: 780px;
+  height: 900px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -222,30 +233,38 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
-  font-size: 50px;
-  line-height: 600px;
+  font-size: 70px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  padding-top: 300px;
+  word-wrap: break-word;
+  opacity: 0.9;
 }
 
 section.module.parallax.parallax-2 h1 {
   color: white;
   font-size: 45px;
-  line-height: 600px;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  padding-top: 300px;
+  word-wrap: break-word;
+  opacity: 0.9;
+}
+
+section.module.parallax.parallax-2 a {
+  text-decoration: none;
+  color: orange;
+  font-size: 30px;
 }
 
 section.module.parallax-1 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/mghome.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
 }
 
 section.module.parallax-2{
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/mghome.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
 }
 
 
@@ -281,11 +300,11 @@ section.module.parallax-2{
 @media all and (min-width: 960px) {
 
   section.module h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   section.module.parallax h1 {
-    font-size: 60px;
+    font-size: 150px;
   }
 
 }

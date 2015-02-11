@@ -12,26 +12,7 @@
             }
         });  
         
-// TEST CODE
 
-       /* $("#nav-main a").click(funciton(e){
-            e.preventDefault();
-            $('a').addClass('active');
-            $(this).parent().siblings().find('a').removeClass('active');
-        });  */
-
-       /* var thisUrl = location.href.split("/");
-        var currentPage = thisUrl[thisUrl.length-1]
-            .replace('.html','');
-
-        $("#nav-main a").each(function(){
-            if(String($(this).text()).toLowerCase()
-                === currentPage.toLowerCase())
-                $(this).addClass('active');
-        });
-
-        if(currentPage === "index")
-            $("#nav-main a").eq(0).addClass("active");*/
               
 });
 
