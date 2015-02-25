@@ -5,10 +5,6 @@
   margin: 0 auto;
 }
 
-/*body {
-  background-color: #000000;
-}*/
-
 
 /* 
     ~~~~~~~~~~~~~~~~
@@ -16,8 +12,9 @@
     ~~~~~~~~~~~~~~~~
 */
 #nav-trigger {
+  position: relative;
   display: none;
-  text-align: center;
+  text-align: right;
   background-color: rgba(0, 0, 0, 1.0);
   width: 100%;
   padding: 10px 30px;
@@ -26,7 +23,7 @@
 #nav-trigger span {
   display: inline-block;
   padding: 10px 30px;
-  color: #efefef;
+  color: orange;
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -37,20 +34,20 @@
   width: 20px;
   height: 10px;
   content: "";
-  border-top: solid 10px #00ccd6;
+/*  border-top: solid 10px orange;
   border-left: solid 10px transparent;
-  border-right: solid 10px transparent; 
+  border-right: solid 10px transparent; */
 }
 
 #nav-trigger span:hover{
-  color: #00ccd6;
+  color: orange;
 }
 
 #nav-trigger span.open:after {
   border-left: solid 10px transparent;
-  border-top: none;
-  border-bottom: solid 10px #00ccd6;
-  border-right: solid 10px transparent; 
+  /*border-top: none;
+  border-bottom: solid 10px orange;
+  border-right: solid 10px transparent; */
 }
 
 nav#nav-main {
@@ -98,7 +95,7 @@ nav#nav-main a:hover {
 }
 
 nav#nav-mobile {
-  position: relative;
+  position: absolute;
   display: none; 
   font-family: Open Sans;
   text-transform: uppercase;
@@ -110,7 +107,7 @@ nav#nav-mobile ul {
   left: 0;
   right: 0;
   margin-left: -30px;
-  text-align: center;
+  text-align: right;
   background-color: rgba(0, 0, 0, 1.0);
   margin-bottom: 0px !important;
 }
@@ -118,7 +115,7 @@ nav#nav-mobile ul {
 nav#nav-mobile li {
   display: block;
   margin: 0 -5px;
-  border-bottom: solid 1px #00ccd6;
+  border-bottom: solid 1px orange;
 }
 
 nav#nav-mobile li:last-child {
@@ -127,7 +124,7 @@ nav#nav-mobile li:last-child {
 
 nav#nav-mobile a {
   display: block;
-  color: #efefef;
+  color: orange;
   padding: 10px 30px;
 }
 
@@ -210,9 +207,9 @@ section.module.content {
   src: url("fonts/Portago_ITC.ttf");
 }
 
-#title {
+/*#title {
   font-family: "Portago ITC", "Open Sans";
-}
+}*/
 
 section.module.content-2 a:hover {
   opacity: 0.6;
@@ -235,11 +232,17 @@ section.module.parallax h1 {
   color: white;
   font-size: 70px;
   font-weight: 700;
-  text-align: center;
+  text-align: left;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  padding-top: 300px;
+  /*padding-top: 300px;
   word-wrap: break-word;
-  opacity: 0.9;
+  opacity: 0.9;*/
+}
+
+h1 img {
+  max-height: 600px;
+  margin-top: 100px;
+  margin-left: 65px;
 }
 
 section.module.parallax.parallax-2 h1 {
@@ -268,14 +271,31 @@ section.module.parallax-2{
 }
 
 
+/*
+    MEDIA 360px min
+*/
 
 @media all and (min-width: 320px) {
-  section.module h2 {
-    font-size: 20px;
+  section.module.parallax-1{
+    max-height: 700px;
   }
 
-  section.module p {
-    font-size: 15px;
+  section.module.parallax-2{
+    max-height: 700px;
+  }
+
+  section.module h1 img{
+    max-height: 200px;
+    margin-top: 50px;
+    margin-left: 12px;
+  } 
+
+  section.module h1 {
+    font-size: 22px;
+  }
+
+  section.module h1 a {
+    font-size: 20px;
   }
 
   section.module.parallax h1 {
@@ -283,7 +303,25 @@ section.module.parallax-2{
   }
 }
 
+/*
+    MEDIA 600px min
+*/
+
 @media all and (min-width: 600px) {
+  section.module.parallax-1{
+    max-height: 900px;
+  }
+
+  section.module.parallax-2{
+    max-height: 900px;
+  }
+
+    section.module h1 img{
+    max-height: 400px;
+    margin-top: 100px;
+    margin-left: 0px;
+  } 
+
   section.module h2 {
     font-size: 25px;
   }
@@ -297,7 +335,24 @@ section.module.parallax-2{
   }
 }
 
+/*
+    MEDIA 960px min
+*/
+
 @media all and (min-width: 960px) {
+  section.module.parallax-1{
+    max-height: 900px;
+  }
+
+  section.module.parallax-2{
+    max-height: 900px;
+  }
+
+   section.module h1 img{
+    max-height: 700px;
+    margin-top: 100px;
+    margin-left: 0px;
+  } 
 
   section.module h2 {
     font-size: 30px;
