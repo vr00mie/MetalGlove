@@ -23,9 +23,9 @@
 
   <nav id="nav-main">
     <ul>
-      <li><a class="active" href="index.html">home</a></li>
+      <li><a href="index.html">home</a></li>
       <li><a href="info.html">game</a></li>
-      <li><a href="update_notes.html">update notes</a></li>
+      <li><a class="active" href="update_notes.html">update notes</a></li>
       <li><a href="press.html">press</a></li>
       <li><a href="http://hiddenachievement.com">hidden achievement</a></li>
     </ul>
@@ -36,45 +36,39 @@
 
   <!--   ** SECTION 1 **   -->
 
-  <section class="module parallax parallax-1">
+  <section class="module parallax parallax-3">
     <div class="container">
-      <h1><img src="https://s3-us-west-2.amazonaws.com/hiddenachievement/Logo.png"></h1>
-    </div>
-  </section>
-
-
-  <!--   ** SECTION 2 **   -->
-
-<section class="module parallax parallax-2">
-
-    <div class="container">
-      <h1>NOW AVAILABLE on OUYA for FREE! <a href="https://devs.ouya.tv/gamers/queued_downloads/new?uuid=com.hiddenachievement.MetalGlove">DOWNLOAD HERE</a></h1>
+      <h1>Update Notes</h1>
     </div>
   </section>
 
   <section class="module content">
     <div class="container">
-      <h2>Mechano-Invaders</h2>
-      <p>Battle a variety of mechanized invaders with different behaviors and abilities. Destroy spawners to stop the invasion. Beware of the Security Bots and Mega-MechanoSpyders!</p>
-      <h2>Pickups</h2>
-      <p>Your world is filled with goodies to help you along your way -- from shot speed boosts to temporary invisibility and pulse bombs. Grab 'em before your friends do!</p>
-      <h2>Teleporters and Traps</h2>
-      <p>Be careful where you step! Trap tiles may open doors that release waves of monsters, or they may open doors that are standing between you and your goal. Use teleporters to explore unreachable areas. Can you clear the whole map?</p>
+      <h2>Update 1.0.4</h2>
+      <ul>
+      	<li>Fixed a wrong sprite sometimes being shown briefly when a door is destroyed.</li>
+      	<li>Fixed a bug that was causing AI decision making to be too slow.</li>
+      	<li>Fixed a bug with the player melee speed limiter.</li>
+      	<li>Fixed a bug that was causing enemies to not scale properly with damage state (makes full-strength enemies stronger).</li>
+      	<li>Adjusted balance and scoring due to changes in difficulty from bug fixes.</li>
+      	<li>Tweaked tutorial text.</li>
+      	<li>Added a music loop during gameplay.</li>
+      	<li>Added more description of content in the world packs on the purchase screen.</li>
+      	<li>Added a series of menu idle / post-credits screens that display information about the base enemies.</li>
+      	<li>Fixed a bug that caused the plasma shot charging sound to get stuck if the game is paused while a player is charging a shot.</li>
+      	<li>Hide the bundle pack from the purchase screen when a player has already purchased one of the included worlds, as purchasing the remaining worlds separately is cheaper.</li>
+      </ul>
     </div>
   </section>
 
 
-
 <!--   ** FOOTER **   -->
-
 
 <div class="footer">
     <div class="container">
       <ul>
         <!---<li>social</li>-->
-
         <li><a href="https://www.facebook.com/pages/Order-of-the-Metal-Glove/745246715509804?ref=br_tf"><img src="https://s3-us-west-2.amazonaws.com/hiddenachievement/fb.png"></a></li>
-
       </ul>
     </div>
 </div>

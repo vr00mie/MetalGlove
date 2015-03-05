@@ -5,10 +5,13 @@
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /*body {
   background-color: #000000;
 }*/
 
+=======
+>>>>>>> master
 
 /* 
     ~~~~~~~~~~~~~~~~
@@ -16,19 +19,34 @@
     ~~~~~~~~~~~~~~~~
 */
 #nav-trigger {
+<<<<<<< HEAD
   display: none;
   text-align: center;
   background-color: rgba(0, 0, 0, 1.0);
+=======
+  position: relative;
+  display: none;
+  text-align: left;
+  background-color: rgba(1, 0, 0, 1.0);
+>>>>>>> master
   width: 100%;
   padding: 10px 30px;
 }
 
 #nav-trigger span {
   display: inline-block;
+<<<<<<< HEAD
   padding: 10px 30px;
   color: #efefef;
   cursor: pointer;
   text-transform: uppercase;
+=======
+  cursor: pointer;
+}
+
+#nav-trigger span img {
+  max-height: 40px;
+>>>>>>> master
 }
 
 #nav-trigger span:after {
@@ -37,6 +55,7 @@
   width: 20px;
   height: 10px;
   content: "";
+<<<<<<< HEAD
   border-top: solid 10px #00ccd6;
   border-left: solid 10px transparent;
   border-right: solid 10px transparent; 
@@ -44,10 +63,17 @@
 
 #nav-trigger span:hover{
   color: #00ccd6;
+=======
+}
+
+#nav-trigger span:hover{
+  opacity: 0.9;
+>>>>>>> master
 }
 
 #nav-trigger span.open:after {
   border-left: solid 10px transparent;
+<<<<<<< HEAD
   border-top: none;
   border-bottom: solid 10px #00ccd6;
   border-right: solid 10px transparent; 
@@ -61,14 +87,29 @@ nav#nav-main {
   position: fixed;
   width: 100%;
 
+=======
+}
+
+nav#nav-main {
+  background-color: rgba(0, 0, 0, 1.0);
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-family: Dosis;
+  /*position: fixed;*/
+  width: 100%;
+  font-size: 13px;
+>>>>>>> master
   top: 0px;
   left: 0px;
 }
 
 nav#nav-main ul {
   list-style-type: none;
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
+=======
+>>>>>>> master
   text-align: right;
 }
 
@@ -85,15 +126,24 @@ nav#nav-main li:last-child {
 nav#nav-main a {
   display: block;
   color: #ffffff;
+<<<<<<< HEAD
   padding: 20px 30px;
  }
 
 nav#nav-main a:hover {
   color: orange;
+=======
+  padding: 7px 30px;
+ }
+
+nav#nav-main a:hover {
+  color: #ff5202;
+>>>>>>> master
   text-decoration: none;
 }
 
 #nav-main a.active {
+<<<<<<< HEAD
   color: orange;
 }
 
@@ -101,6 +151,15 @@ nav#nav-mobile {
   position: relative;
   display: none; 
   font-family: Open Sans;
+=======
+  color: #ff5202;
+}
+
+nav#nav-mobile {
+  position: absolute;
+  display: none; 
+  font-family: Dosis;
+>>>>>>> master
   text-transform: uppercase;
 }
 
@@ -110,7 +169,11 @@ nav#nav-mobile ul {
   left: 0;
   right: 0;
   margin-left: -30px;
+<<<<<<< HEAD
   text-align: center;
+=======
+  text-align: left;
+>>>>>>> master
   background-color: rgba(0, 0, 0, 1.0);
   margin-bottom: 0px !important;
 }
@@ -118,7 +181,10 @@ nav#nav-mobile ul {
 nav#nav-mobile li {
   display: block;
   margin: 0 -5px;
+<<<<<<< HEAD
   border-bottom: solid 1px #00ccd6;
+=======
+>>>>>>> master
 }
 
 nav#nav-mobile li:last-child {
@@ -127,15 +193,27 @@ nav#nav-mobile li:last-child {
 
 nav#nav-mobile a {
   display: block;
+<<<<<<< HEAD
   color: #efefef;
+=======
+  color: #ffffff;
+>>>>>>> master
   padding: 10px 30px;
 }
 
 nav#nav-mobile a:hover {
+<<<<<<< HEAD
   color: #00ccd6;
   text-decoration: none; 
 }
 
+=======
+  color: #FF8000;
+  text-decoration: none; 
+}
+
+
+>>>>>>> master
 @media all and (max-width: 900px) {
   #nav-trigger {
     display: block; }
@@ -159,7 +237,11 @@ section.module:last-child {
 
 section.module h2 {
   margin-bottom: 10px;
+<<<<<<< HEAD
   font-family: Open Sans;
+=======
+  font-family: Dosis;
+>>>>>>> master
   font-size: 20px;
   text-align: left;
 }
@@ -196,7 +278,11 @@ section.module p:last-child {
 }
 
 section.module li {
+<<<<<<< HEAD
   display: inline-block;
+=======
+  font-size: 17px;
+>>>>>>> master
 }
 
 section.module.content {
@@ -205,11 +291,22 @@ section.module.content {
   background-color: #181818;
 }
 
+<<<<<<< HEAD
+=======
+h2 img {
+  text-align: center;
+  max-height: 700px;
+  margin-left: 80px;
+  padding-top: 80px;
+}
+
+>>>>>>> master
 @font-face{
   font-family: "Portago ITC";
   src: url("fonts/Portago_ITC.ttf");
 }
 
+<<<<<<< HEAD
 #title {
   font-family: "Portago ITC", "Open Sans";
 }
@@ -224,6 +321,10 @@ section.module.content-2 h2{
 
 section.module.parallax {
   height: 900px;
+=======
+section.module.parallax {
+  height: 820px;
+>>>>>>> master
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -233,6 +334,7 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
+<<<<<<< HEAD
   font-size: 70px;
   font-weight: 700;
   text-align: center;
@@ -240,10 +342,16 @@ section.module.parallax h1 {
   padding-top: 300px;
   word-wrap: break-word;
   opacity: 0.9;
+=======
+  font-family: Portago ITC;
+  text-align: left;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+>>>>>>> master
 }
 
 section.module.parallax.parallax-2 h1 {
   color: white;
+<<<<<<< HEAD
   font-size: 45px;
   font-weight: 700;
   text-align: center;
@@ -251,14 +359,53 @@ section.module.parallax.parallax-2 h1 {
   padding-top: 300px;
   word-wrap: break-word;
   opacity: 0.9;
+=======
+  font-family: Dosis;
+  font-weight: 700;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 2);
+  word-wrap: break-word;
+  /*background-color: rgba(0, 0, 0, 0.9);*/
+  margin-top: 300px;
+>>>>>>> master
 }
 
 section.module.parallax.parallax-2 a {
   text-decoration: none;
+<<<<<<< HEAD
   color: orange;
   font-size: 30px;
 }
 
+=======
+  color: #ff5202;
+  font-size: 30px;
+}
+
+section.module.parallax.parallax-2 a:hover {
+  opacity: 0.7;
+}
+
+section.module.parallax.parallax-3 h1 {
+  color: white;
+  font-family: Portago ITC;
+  font-size: 100px;
+  padding-top: 130px;
+  text-align: left;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+section.module.parallax.parallax-4 h1 {
+  color: white;
+  font-family: Portago ITC;
+  font-size: 100px;
+  /*padding-top: 100px;*/
+  text-align: left;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+>>>>>>> master
 section.module.parallax-1 {
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
 }
@@ -267,6 +414,7 @@ section.module.parallax-2{
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
 }
 
+<<<<<<< HEAD
 
 
 @media all and (min-width: 320px) {
@@ -284,6 +432,160 @@ section.module.parallax-2{
 }
 
 @media all and (min-width: 600px) {
+=======
+section.module.parallax-3{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+  max-height: 400px;
+}
+
+
+section.module.parallax-4{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+}
+
+section.module.parallax-5{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/foodbg.jpg");
+}
+
+section.module.parallax-6{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/shieldbg.jpg");
+}
+
+section.module.parallax-7{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
+}
+
+
+/* CAROUSEL STYLE */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  margin-left: 30px;
+}
+
+.slide {
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide-img {
+  text-align: right;
+}
+
+/* CAROUSEL NAVIGATION */
+
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+
+
+
+
+/*
+    MEDIA 360px min
+*/
+
+@media all and (min-width: 320px) {
+  .slider {
+    height: 250px;
+  }
+
+  .slider img {
+    max-width: 370px;
+    margin-left: -70px;
+  }
+
+  section.module.parallax-1{
+    max-height: 400px;
+  }
+
+  section.module.parallax-2{
+    max-height: 400px;
+  }
+
+  section.module h1 img{
+    max-height: 200px;
+    margin-top: 20px;
+    margin-left: 12px;
+  } 
+
+  section.module h1 {
+    font-size: 22px;
+  }
+
+  section.module h1 a {
+    font-size: 20px;
+  }
+
+}
+
+/*
+    MEDIA 600px min
+*/
+
+@media all and (min-width: 600px) {
+  section.module.parallax-1{
+    max-height: 900px;
+  }
+
+  section.module.parallax-2{
+    max-height: 900px;
+  }
+
+  section.module h1 img{
+    max-height: 400px;
+    margin-top: 20px;
+    margin-left: 0px;
+  } 
+
+>>>>>>> master
   section.module h2 {
     font-size: 25px;
   }
@@ -297,7 +599,28 @@ section.module.parallax-2{
   }
 }
 
+<<<<<<< HEAD
 @media all and (min-width: 960px) {
+=======
+/*
+    MEDIA 960px min
+*/
+
+@media all and (min-width: 960px) {
+  section.module.parallax-1{
+    max-height: 900px;
+  }
+
+  section.module.parallax-2{
+    max-height: 900px;
+  }
+
+   section.module h1 img{
+    max-height: 600px;
+    margin-top: 20px;
+    margin-left: 0px;
+  } 
+>>>>>>> master
 
   section.module h2 {
     font-size: 30px;
@@ -317,9 +640,15 @@ section.module.parallax-2{
 
 .footer {
   clear: both;
+<<<<<<< HEAD
   text-align: center;
   background-color: #181818;
   margin-left: -30px;
+=======
+  background-color: #181818;
+  text-align: center;
+  margin-left: -35px;
+>>>>>>> master
 }
 
 .footer img {
@@ -328,23 +657,38 @@ section.module.parallax-2{
 }
 
 .footer img:hover{
+<<<<<<< HEAD
   opacity: 0.6;
+=======
+  opacity: 0.7;
+>>>>>>> master
 }
 
 .footer li {
   display: inline-block;
+<<<<<<< HEAD
   font-family: Open Sans;
   font-size: 15px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 20px;
+=======
+  padding-top: 10px;
+>>>>>>> master
 }
 
 .rights {
   text-align: center;
+<<<<<<< HEAD
   font-size: 9px;
   background-color: #181818;
   color: #efefef;
+=======
+  font-size: 12px; 
+  background-color: #181818;
+  color: #efefef;
+  font-family: Dosis;
+>>>>>>> master
 }
 
 .rights p {
