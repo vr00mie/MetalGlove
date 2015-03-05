@@ -14,18 +14,19 @@
 #nav-trigger {
   position: relative;
   display: none;
-  text-align: right;
-  background-color: rgba(0, 0, 0, 1.0);
+  text-align: left;
+  background-color: rgba(1, 0, 0, 1.0);
   width: 100%;
   padding: 10px 30px;
 }
 
 #nav-trigger span {
   display: inline-block;
-  padding: 10px 30px;
-  color: orange;
   cursor: pointer;
-  text-transform: uppercase;
+}
+
+#nav-trigger span img {
+  max-height: 40px;
 }
 
 #nav-trigger span:after {
@@ -34,38 +35,30 @@
   width: 20px;
   height: 10px;
   content: "";
-/*  border-top: solid 10px orange;
-  border-left: solid 10px transparent;
-  border-right: solid 10px transparent; */
 }
 
 #nav-trigger span:hover{
-  color: orange;
+  opacity: 0.9;
 }
 
 #nav-trigger span.open:after {
   border-left: solid 10px transparent;
-  /*border-top: none;
-  border-bottom: solid 10px orange;
-  border-right: solid 10px transparent; */
 }
 
 nav#nav-main {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 1.0);
   padding: 10px 0;
   text-transform: uppercase;
-  font-family: Open Sans;
-  position: fixed;
+  font-family: Dosis;
+  /*position: fixed;*/
   width: 100%;
-
+  font-size: 13px;
   top: 0px;
   left: 0px;
 }
 
 nav#nav-main ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   text-align: right;
 }
 
@@ -82,22 +75,22 @@ nav#nav-main li:last-child {
 nav#nav-main a {
   display: block;
   color: #ffffff;
-  padding: 20px 30px;
+  padding: 7px 30px;
  }
 
 nav#nav-main a:hover {
-  color: orange;
+  color: #ff5202;
   text-decoration: none;
 }
 
 #nav-main a.active {
-  color: orange;
+  color: #ff5202;
 }
 
 nav#nav-mobile {
   position: absolute;
   display: none; 
-  font-family: Open Sans;
+  font-family: Dosis;
   text-transform: uppercase;
 }
 
@@ -107,7 +100,7 @@ nav#nav-mobile ul {
   left: 0;
   right: 0;
   margin-left: -30px;
-  text-align: right;
+  text-align: left;
   background-color: rgba(0, 0, 0, 1.0);
   margin-bottom: 0px !important;
 }
@@ -115,7 +108,6 @@ nav#nav-mobile ul {
 nav#nav-mobile li {
   display: block;
   margin: 0 -5px;
-  border-bottom: solid 1px orange;
 }
 
 nav#nav-mobile li:last-child {
@@ -124,14 +116,15 @@ nav#nav-mobile li:last-child {
 
 nav#nav-mobile a {
   display: block;
-  color: orange;
+  color: #ffffff;
   padding: 10px 30px;
 }
 
 nav#nav-mobile a:hover {
-  color: #00ccd6;
+  color: #FF8000;
   text-decoration: none; 
 }
+
 
 @media all and (max-width: 900px) {
   #nav-trigger {
@@ -156,7 +149,7 @@ section.module:last-child {
 
 section.module h2 {
   margin-bottom: 10px;
-  font-family: Open Sans;
+  font-family: Dosis;
   font-size: 20px;
   text-align: left;
 }
@@ -193,7 +186,7 @@ section.module p:last-child {
 }
 
 section.module li {
-  display: inline-block;
+  font-size: 17px;
 }
 
 section.module.content {
@@ -202,25 +195,20 @@ section.module.content {
   background-color: #181818;
 }
 
+h2 img {
+  text-align: center;
+  max-height: 700px;
+  margin-left: 80px;
+  padding-top: 80px;
+}
+
 @font-face{
   font-family: "Portago ITC";
   src: url("fonts/Portago_ITC.ttf");
 }
 
-/*#title {
-  font-family: "Portago ITC", "Open Sans";
-}*/
-
-section.module.content-2 a:hover {
-  opacity: 0.6;
-}
-
-section.module.content-2 h2{
-  font-size: 20px;
-}
-
 section.module.parallax {
-  height: 900px;
+  height: 820px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -230,36 +218,49 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
-  font-size: 70px;
-  font-weight: 700;
+  font-family: Portago ITC;
   text-align: left;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  /*padding-top: 300px;
-  word-wrap: break-word;
-  opacity: 0.9;*/
-}
-
-h1 img {
-  max-height: 600px;
-  margin-top: 100px;
-  margin-left: 65px;
 }
 
 section.module.parallax.parallax-2 h1 {
   color: white;
-  font-size: 45px;
+  font-family: Dosis;
   font-weight: 700;
+  font-size: 45px;
   text-align: center;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  padding-top: 300px;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 2);
   word-wrap: break-word;
-  opacity: 0.9;
+  /*background-color: rgba(0, 0, 0, 0.9);*/
+  margin-top: 300px;
 }
 
 section.module.parallax.parallax-2 a {
   text-decoration: none;
-  color: orange;
+  color: #ff5202;
   font-size: 30px;
+}
+
+section.module.parallax.parallax-2 a:hover {
+  opacity: 0.7;
+}
+
+section.module.parallax.parallax-3 h1 {
+  color: white;
+  font-family: Portago ITC;
+  font-size: 100px;
+  padding-top: 130px;
+  text-align: left;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+}
+
+section.module.parallax.parallax-4 h1 {
+  color: white;
+  font-family: Portago ITC;
+  font-size: 100px;
+  /*padding-top: 100px;*/
+  text-align: left;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 
 section.module.parallax-1 {
@@ -270,23 +271,126 @@ section.module.parallax-2{
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
 }
 
+section.module.parallax-3{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+  max-height: 400px;
+}
+
+
+section.module.parallax-4{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+}
+
+section.module.parallax-5{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/foodbg.jpg");
+}
+
+section.module.parallax-6{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/shieldbg.jpg");
+}
+
+section.module.parallax-7{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
+}
+
+
+/* CAROUSEL STYLE */
+
+.slider {
+  position: relative;
+  width: 100%;
+  height: 470px;
+  margin-left: 30px;
+}
+
+.slide {
+  background-size: cover;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.active-slide {
+    display: block;
+}
+
+.slide-img {
+  text-align: right;
+}
+
+/* CAROUSEL NAVIGATION */
+
+
+.slider-nav {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+.arrow-prev {
+  margin-right: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.arrow-next {
+  margin-left: 45px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 9px;
+}
+
+.slider-dots {
+  list-style: none;
+  display: inline-block;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.slider-dots li {
+  color: #bbbcbc;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.slider-dots li.active-dot {
+  color: #363636;
+}
+
+
+
+
 
 /*
     MEDIA 360px min
 */
 
 @media all and (min-width: 320px) {
+  .slider {
+    height: 250px;
+  }
+
+  .slider img {
+    max-width: 370px;
+    margin-left: -70px;
+  }
+
   section.module.parallax-1{
-    max-height: 700px;
+    max-height: 400px;
   }
 
   section.module.parallax-2{
-    max-height: 700px;
+    max-height: 400px;
   }
 
   section.module h1 img{
     max-height: 200px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 12px;
   } 
 
@@ -298,9 +402,6 @@ section.module.parallax-2{
     font-size: 20px;
   }
 
-  section.module.parallax h1 {
-    font-size: 30px;
-  }
 }
 
 /*
@@ -316,9 +417,9 @@ section.module.parallax-2{
     max-height: 900px;
   }
 
-    section.module h1 img{
+  section.module h1 img{
     max-height: 400px;
-    margin-top: 100px;
+    margin-top: 20px;
     margin-left: 0px;
   } 
 
@@ -349,8 +450,8 @@ section.module.parallax-2{
   }
 
    section.module h1 img{
-    max-height: 700px;
-    margin-top: 100px;
+    max-height: 600px;
+    margin-top: 20px;
     margin-left: 0px;
   } 
 
@@ -372,9 +473,9 @@ section.module.parallax-2{
 
 .footer {
   clear: both;
-  text-align: center;
   background-color: #181818;
-  margin-left: -30px;
+  text-align: center;
+  margin-left: -35px;
 }
 
 .footer img {
@@ -383,23 +484,20 @@ section.module.parallax-2{
 }
 
 .footer img:hover{
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .footer li {
   display: inline-block;
-  font-family: Open Sans;
-  font-size: 15px;
-  text-transform: uppercase;
   padding-top: 10px;
-  padding-left: 20px;
 }
 
 .rights {
   text-align: center;
-  font-size: 9px;
+  font-size: 12px; 
   background-color: #181818;
   color: #efefef;
+  font-family: Dosis;
 }
 
 .rights p {

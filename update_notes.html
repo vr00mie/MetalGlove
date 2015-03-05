@@ -1,16 +1,81 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<title></title>
-	 <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
+  <title></title>
+
+  <!--   ** LINKS AND SCRIPTS **   -->
+
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="fonts/OpenSans-Regular.ttf">
+  <link rel="stylesheet" type="text/css" href="fonts/OpenSans-Regular.ttf">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
   <script type="text/javascript" src="js/app.js"></script>
 </head>
-<body>
-<h1>UPDATE NOTES</h1>
+<body> 
+
+<!--   ** MENU **   -->
+
+  <div id="nav-trigger">
+    <span><img src="https://s3-us-west-2.amazonaws.com/hiddenachievement/menu.png"></span>
+  </div>
+
+  <nav id="nav-main">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="info.html">game</a></li>
+      <li><a class="active" href="update_notes.html">update notes</a></li>
+      <li><a href="press.html">press</a></li>
+      <li><a href="http://hiddenachievement.com">hidden achievement</a></li>
+    </ul>
+  </nav>
+
+  <nav id="nav-mobile"></nav>
+
+
+  <!--   ** SECTION 1 **   -->
+
+  <section class="module parallax parallax-3">
+    <div class="container">
+      <h1>Update Notes</h1>
+    </div>
+  </section>
+
+  <section class="module content">
+    <div class="container">
+      <h2>Update 1.0.4</h2>
+      <ul>
+      	<li>Fixed a wrong sprite sometimes being shown briefly when a door is destroyed.</li>
+      	<li>Fixed a bug that was causing AI decision making to be too slow.</li>
+      	<li>Fixed a bug with the player melee speed limiter.</li>
+      	<li>Fixed a bug that was causing enemies to not scale properly with damage state (makes full-strength enemies stronger).</li>
+      	<li>Adjusted balance and scoring due to changes in difficulty from bug fixes.</li>
+      	<li>Tweaked tutorial text.</li>
+      	<li>Added a music loop during gameplay.</li>
+      	<li>Added more description of content in the world packs on the purchase screen.</li>
+      	<li>Added a series of menu idle / post-credits screens that display information about the base enemies.</li>
+      	<li>Fixed a bug that caused the plasma shot charging sound to get stuck if the game is paused while a player is charging a shot.</li>
+      	<li>Hide the bundle pack from the purchase screen when a player has already purchased one of the included worlds, as purchasing the remaining worlds separately is cheaper.</li>
+      </ul>
+    </div>
+  </section>
+
+
+<!--   ** FOOTER **   -->
+
+<div class="footer">
+    <div class="container">
+      <ul>
+        <!---<li>social</li>-->
+        <li><a href="https://www.facebook.com/pages/Order-of-the-Metal-Glove/745246715509804?ref=br_tf"><img src="https://s3-us-west-2.amazonaws.com/hiddenachievement/fb.png"></a></li>
+      </ul>
+    </div>
+</div>
+
+<div class="rights">
+      <p>&#169 Copyright 2015, Hidden Achievement, LLC | All Rights Reserved</p>
+</div>
+
 </body>
 </html>
