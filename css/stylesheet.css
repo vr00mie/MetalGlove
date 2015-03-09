@@ -202,6 +202,10 @@ h2 img {
   padding-top: 80px;
 }
 
+h3 {
+  text-align: center;
+}
+
 @font-face{
   font-family: "Portago ITC";
   src: url("fonts/Portago_ITC.ttf");
@@ -218,9 +222,10 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
-  font-family: Portago ITC;
-  text-align: left;
+  font-family: Dosis;
+  text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
 }
 
 section.module.parallax.parallax-2 h1 {
@@ -247,19 +252,19 @@ section.module.parallax.parallax-2 a:hover {
 
 section.module.parallax.parallax-3 h1 {
   color: white;
-  font-family: Portago ITC;
+  font-family: Dosis;
   font-size: 100px;
   padding-top: 130px;
-  text-align: left;
+  text-align: center;
   text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 
 section.module.parallax.parallax-4 h1 {
   color: white;
-  font-family: Portago ITC;
+  font-family: Dosis;
   font-size: 100px;
   /*padding-top: 100px;*/
-  text-align: left;
+  text-align: center;
   text-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
 }
 
@@ -278,7 +283,7 @@ section.module.parallax-3{
 
 
 section.module.parallax-4{
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
 }
 
 section.module.parallax-5{
@@ -300,7 +305,7 @@ section.module.parallax-7{
   position: relative;
   width: 100%;
   height: 470px;
-  margin-left: 30px;
+  margin: 0 auto;
 }
 
 .slide {
@@ -326,22 +331,24 @@ section.module.parallax-7{
 
 .slider-nav {
   text-align: center;
-  margin-top: 20px;
-  margin-left: -10px;
+  margin-top: 80px;
+  margin-left: -60px !important;
+}
+
+.slider-nav img {
+  max-height: 45px;
 }
 
 .arrow-prev {
-  margin-right: 45px;
+  margin-right: 35px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 9px;
 }
 
 .arrow-next {
-  margin-left: 45px;
+  margin-left: 35px;
   display: inline-block;
   vertical-align: top;
-  margin-top: 9px;
 }
 
 .slider-dots {
@@ -349,6 +356,7 @@ section.module.parallax-7{
   display: inline-block;
   padding-left: 0;
   margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .slider-dots li {
@@ -412,15 +420,13 @@ section.module.parallax-7{
 
 @media all and (min-width: 600px) {
   .slider {
-  position: relative;
   width: 100%;
   height: 470px;
-  margin-left: 30px;
+  position: relative;
   }
 
   .slider img {
-    max-width: 550px;
-    margin-left: -70px;
+  max-width: 550px;
   }
 
   section.module.parallax-1{
@@ -446,6 +452,28 @@ section.module.parallax-7{
     font-size: 40px !important;
   }
 
+  section.module.parallax-4{
+    height: 600px;
+  }
+
+    section.module.parallax-5{
+    height: 600px;
+  }
+
+    section.module.parallax-6{
+    height: 600px;
+  }
+
+  section.module.parallax-5 h2 img{
+    height: 500px;
+    text-align: center;
+  }
+
+  section.module.parallax-6 h2 img{
+    height: 500px;
+    text-align: center;
+  }
+
 }
 
 /*
@@ -453,16 +481,16 @@ section.module.parallax-7{
 */
 
 @media all and (min-width: 960px) {
-    .slider {
+  .slider {
   position: relative;
   width: 100%;
   height: 470px;
-  margin-left: 30px;
+  margin-top: 60px !important;
   }
 
   .slider img {
-    max-width: 800px;
-    margin-left: 10px;
+    max-width: 850px;
+    margin-left: -30px;
   }
 
   section.module.parallax-1{
@@ -485,6 +513,27 @@ section.module.parallax-7{
 
   section.module.parallax-2 h1 a {
     font-size: 40px !important;
+  }
+
+  section.module.parallax-4{
+    height: 800px;
+  }
+
+    section.module.parallax-5{
+    height: 900px;
+  }
+    section.module.parallax-6{
+    height: 900px;
+  }
+
+  section.module.parallax-5 h2 img{
+    height: 800px;
+    text-align: center;
+  }
+
+  section.module.parallax-6 h2 img{
+    height: 800px;
+    text-align: center;
   }
 
 }
