@@ -92,6 +92,7 @@ nav#nav-mobile {
   display: none; 
   font-family: Dosis;
   text-transform: uppercase;
+  z-index: 1;
 }
 
 nav#nav-mobile ul {
@@ -283,7 +284,7 @@ section.module.parallax-3{
 
 
 section.module.parallax-4{
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
 }
 
 section.module.parallax-5{
@@ -291,7 +292,7 @@ section.module.parallax-5{
 }
 
 section.module.parallax-6{
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/shieldbg.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Pickupsbg.jpg");
 }
 
 section.module.parallax-7{
@@ -303,19 +304,24 @@ section.module.parallax-7{
 
 .slider {
   position: relative;
-  width: 100%;
-  height: 470px;
+  /*width: 100%;
+  height: 470px;*/
   margin: 0 auto;
+  max-width: 850px; 
+  min-width: 400px; 
 }
 
 .slide {
-  background-size: cover;
+  background-size: 600px 400px;
   display: none;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  max-width: 850px; 
+  min-width: 300px; 
+  /*width: 100%;
+  height: 100%;*/
+  background-color: rgba( 0,0,0, 0.3);
 }
 
 .active-slide {
@@ -385,7 +391,18 @@ section.module.parallax-7{
 
   .slider img {
     max-width: 370px;
-    margin-left: -70px;
+    margin-left: -35px;
+    z-index: 2;
+  }
+
+  .slide {
+    max-width: 325px;
+    max-height: 250px;
+  }
+
+  .slider-nav {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
   }
 
   section.module.parallax-1{
@@ -411,6 +428,31 @@ section.module.parallax-7{
     font-size: 30px !important;
   }
 
+  section.module.parallax-4{
+    height: 350px;
+  }
+
+    section.module.parallax-5{
+    height: 300px;
+  }
+
+    section.module.parallax-6{
+    height: 300px;
+  }
+
+    section.module.parallax-5 h2 img{
+    height: 330px;
+    text-align: center !important;
+    margin-left: 0px !important;
+    margin-top: -100px !important;
+  }
+
+  section.module.parallax-6 h2 img{
+    height: 330px;
+    text-align: center !important;
+    margin-left: 0px !important;
+    margin-top: -100px !important;
+  }
 
 }
 
