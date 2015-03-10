@@ -321,7 +321,6 @@ section.module.parallax-7{
   min-width: 300px; 
   /*width: 100%;
   height: 100%;*/
-  background-color: rgba( 0,0,0, 0.3);
 }
 
 .active-slide {
@@ -462,12 +461,22 @@ section.module.parallax-7{
 @media all and (min-width: 600px) {
   .slider {
   width: 100%;
-  height: 470px;
-  position: relative;
+  height: 0px;
+  margin-left: 120px;
   }
 
   .slider img {
-  max-width: 550px;
+  max-width: 400px;
+  }
+
+  .slide {
+    max-width: 370px;
+    max-height: 220px;
+  }
+
+  .slider-nav {
+    margin-left: 0px !important;
+    margin-top: 270px !important;
   }
 
   section.module.parallax-1{
@@ -494,25 +503,27 @@ section.module.parallax-7{
   }
 
   section.module.parallax-4{
-    height: 600px;
+    height: 380px;
   }
 
     section.module.parallax-5{
-    height: 600px;
+    height: 400px;
   }
 
     section.module.parallax-6{
-    height: 600px;
+    height: 400px;
   }
 
   section.module.parallax-5 h2 img{
-    height: 500px;
-    text-align: center;
+    height: 450px;
+    margin-left: 100px !important;
+    margin-top: -120px !important;
   }
 
   section.module.parallax-6 h2 img{
-    height: 500px;
-    text-align: center;
+    height: 450px;
+    margin-left: 100px !important;
+    margin-top: -120px !important;
   }
 
 }
@@ -531,7 +542,16 @@ section.module.parallax-7{
 
   .slider img {
     max-width: 850px;
-    margin-left: -30px;
+    margin-left: -140px;
+  }
+
+  .slide {
+    max-width: 850px;
+  }
+
+  .slider-nav {
+    margin-left: 0px !important;
+    margin-top: 50px !important;
   }
 
   section.module.parallax-1{
@@ -569,12 +589,14 @@ section.module.parallax-7{
 
   section.module.parallax-5 h2 img{
     height: 800px;
-    text-align: center;
+    margin-left: 50px !important;
+    margin-top: 0px !important;
   }
 
   section.module.parallax-6 h2 img{
-    height: 800px;
-    text-align: center;
+    height: 1200px !important;
+    margin-left: 50px !important;
+    margin-top: 0px !important;
   }
 
 }
