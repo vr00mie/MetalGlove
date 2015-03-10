@@ -392,12 +392,11 @@ section.module.parallax-7{
   .slider img {
     max-width: 370px;
     margin-left: -35px;
-    z-index: 2;
   }
 
   .slide {
     max-width: 325px;
-    max-height: 250px;
+    max-height: 240px;
   }
 
   .slider-nav {
@@ -429,7 +428,7 @@ section.module.parallax-7{
   }
 
   section.module.parallax-4{
-    height: 350px;
+    height: 400px;
   }
 
     section.module.parallax-5{
@@ -444,14 +443,14 @@ section.module.parallax-7{
     height: 330px;
     text-align: center !important;
     margin-left: 0px !important;
-    margin-top: -100px !important;
+    margin-top: -80px !important;
   }
 
   section.module.parallax-6 h2 img{
     height: 330px;
     text-align: center !important;
     margin-left: 0px !important;
-    margin-top: -100px !important;
+    margin-top: -80px !important;
   }
 
 }
