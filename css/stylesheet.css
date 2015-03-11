@@ -305,8 +305,6 @@ section.module.parallax-7{
 
 .slider {
   position: relative;
-  /*width: 100%;
-  height: 470px;*/
   margin: 0 auto;
   max-width: 850px; 
   min-width: 400px; 
@@ -320,9 +318,6 @@ section.module.parallax-7{
   left: 0;
   max-width: 850px; 
   min-width: 300px; 
-  /*width: 100%;
-  height: 100%;*/
-  text-align: center;
 }
 
 .active-slide {
@@ -365,14 +360,14 @@ section.module.parallax-7{
 }
 
 .slider-dots li {
-  color: #bbbcbc;
+  color: #efefef;
   display: inline;
   font-size: 30px;
   margin-right: 5px;
 }
 
 .slider-dots li.active-dot {
-  color: #363636;
+  color: #ff5202;
 }
 
 
@@ -387,11 +382,13 @@ section.module.parallax-7{
   .slider {
     height: 250px;
     margin-top: 60px !important;
-    position: relative;
+    /*position: relative;*/
+    margin-left: -55px !important;
   }
 
   .slider img {
-    max-width: 370px;
+    max-width: 350px;
+
   }
 
   .slide {
