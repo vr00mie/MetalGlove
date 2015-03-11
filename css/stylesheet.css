@@ -453,6 +453,19 @@ section.module.parallax-7{
     margin-top: -80px !important;
   }
 
+
+  section.module.parallax-4{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+}
+
+section.module.parallax-5{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+}
+
+section.module.parallax-6{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+}
+
 }
 
 /*
@@ -531,6 +544,18 @@ section.module.parallax-7{
     margin-top: -70px !important;
   }
 
+  section.module.parallax-4{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+}
+
+section.module.parallax-5{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/foodbg.jpg");
+}
+
+section.module.parallax-6{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Pickupsbg.jpg");
+}
+
 }
 
 /*
@@ -606,6 +631,18 @@ section.module.parallax-7{
     margin-left: 50px !important;
     margin-top: 0px !important;
   }
+
+  section.module.parallax-4{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+}
+
+section.module.parallax-5{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/foodbg.jpg");
+}
+
+section.module.parallax-6{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Pickupsbg.jpg");
+}
 
 }
 
