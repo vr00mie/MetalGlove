@@ -169,7 +169,7 @@ section.module h2 a:hover{
 
 section.module p {
   margin-bottom: 40px;
-  font-size: 16px !important;
+  font-size: 17px !important;
   font-weight: 300;
 }
 
@@ -195,6 +195,7 @@ section.module.content {
   padding: 40px 0;
   color: #ffffff;
   background-color: #181818;
+  font-family: Dosis ;
 }
 
 h2 img {
