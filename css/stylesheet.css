@@ -455,7 +455,7 @@ section.module.parallax-7{
     height: 250px;
   }
 
-    section.module.parallax-5 h2 img{
+  section.module.parallax-5 h2 img{
     height: 315px;
     text-align: center !important;
     margin-left: -15px !important;
@@ -609,6 +609,121 @@ section.module.parallax-6{
 }
 
 /*
+    MEDIA 412px min (Large mobile phones: iPhone 6 Plus and Nexus 6)
+*/
+
+@media all and (min-width: 412px) {
+  .slider {
+    height: 250px;
+    margin-top: 60px !important;
+    /*position: relative;*/
+    margin-left: -40px !important;
+  }
+
+  .slider img {
+    max-width: 350px;
+    margin-left: 35px;
+  }
+
+  .slide {
+    max-width: 300px;
+    max-height: 240px;
+  }
+
+  .slider-nav {
+    margin-left: 0px !important;
+    margin-top: 0px !important;
+  }
+
+  section.module.parallax-1{
+    max-height: 730px;
+  }
+   
+  section.module.parallax-1 h1 img{
+    margin-top: 150px;
+    margin-left: -5px;
+    max-height: 300px;
+  }
+
+  section.module.parallax-2{
+    max-height: 300px;
+  }
+
+  section.module.parallax-2 h1{
+    font-size: 45px !important;
+    margin-top: 80px !important;
+  }
+
+  section.module.parallax-2 h1 a {
+    font-size: 30px !important;
+  }
+
+  section.module.parallax.parallax-3 {
+    max-height: 200px;
+  }
+
+  section.module.parallax.parallax-3 h1 {
+    margin-top: -60px !important;
+    font-size: 50px;
+  }
+
+  section.module.content h2 {
+    font-size: 35px;
+  }
+
+  section.module.content li {
+    font-size: 20px;
+  }
+
+  section.module.parallax-4{
+    height: 450px;
+  }
+
+    section.module.parallax-5{
+    height: 300px;
+  }
+
+    section.module.parallax-6{
+    height: 300px;
+  }
+
+    section.module.parallax-5 h2 img{
+    height: 350px;
+    text-align: center !important;
+    margin-left: 10px !important;
+    margin-top: -100px !important;
+  }
+
+  section.module.parallax-6 h2 img{
+    height: 350px;
+    text-align: center !important;
+    margin-left: 10px !important;
+    margin-top: -100px !important;
+  }
+
+section.module.parallax-1 {
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
+}
+
+section.module.parallax-3{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+}
+
+  section.module.parallax-4{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+}
+
+section.module.parallax-5{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+}
+
+section.module.parallax-6{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
+}
+
+}
+
+/*
     MEDIA 600px min (Mobile devices and tablets)
 */
 
@@ -727,21 +842,21 @@ section.module.parallax-6{
   .slider {
   position: relative;
   width: 100%;
-  margin-top: 60px !important;
+  margin-top: 80px !important;
   }
 
   .slider img {
-    max-width: 800px;
+    max-width: 780px;
     margin-left: 80px !important;
   }
 
   .slide {
-    max-width: 800px;
+    max-width: 780px;
   }
 
   .slider-nav {
-    margin-top: 340px !important;
-    margin-left: -80px !important;
+    margin-top: 320px !important;
+    margin-left: 0px !important;
   }
 
   section.module.parallax-1{
@@ -754,7 +869,7 @@ section.module.parallax-6{
 
   h1 img{
     max-height: 600px !important;
-    margin-top: 30px !important;
+    margin-top: 100px !important;
   } 
 
   section.module.parallax-2 h1{
@@ -771,7 +886,7 @@ section.module.parallax-6{
   }
 
   section.module.parallax.parallax-3 h1 {
-    margin-top: -40px !important;
+    margin-top: -10px !important;
     font-size: 90px;
   }
 
