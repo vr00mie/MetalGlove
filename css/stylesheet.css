@@ -47,7 +47,7 @@
 }
 
 nav#nav-main {
-  background-color: rgba(0, 0, 0, 1.0);
+  background-color: #000000;
   padding: 10px 0;
   text-transform: uppercase;
   font-family: Dosis;
@@ -75,7 +75,7 @@ nav#nav-main li:last-child {
 
 nav#nav-main a {
   display: block;
-  color: #ffffff;
+  color: #efefef;
   padding: 7px 30px;
  }
 
@@ -118,7 +118,7 @@ nav#nav-mobile li:last-child {
 
 nav#nav-mobile a {
   display: block;
-  color: #ffffff;
+  color: #efefef;
   padding: 10px 30px;
 }
 
@@ -193,8 +193,8 @@ section.module li {
 
 section.module.content {
   padding: 40px 0;
-  color: #ffffff;
-  background-color: #181818;
+  color: #efefef;
+  background-color: #000000;
   font-family: Dosis ;
 }
 
@@ -285,7 +285,7 @@ section.module.parallax-3{
 
 
 section.module.parallax-4{
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
 }
 
 section.module.parallax-5{
@@ -572,7 +572,7 @@ section.module.parallax-6{
   }
 
   section.module.parallax-4{
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
 }
 
 section.module.parallax-5{
@@ -673,7 +673,7 @@ section.module.parallax-6{
   }
 
   section.module.parallax-4{
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/entitiesbg.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
 }
 
 section.module.parallax-5{
@@ -694,7 +694,7 @@ section.module.parallax-6{
 
 .footer {
   clear: both;
-  background-color: #181818;
+  background-color: #000000;
   text-align: center;
   margin-left: -35px;
 }
@@ -717,7 +717,7 @@ section.module.parallax-6{
 .rights {
   text-align: center;
   font-size: 12px; 
-  background-color: #181818;
+  background-color: #000000;
   color: #efefef;
   font-family: Dosis;
 }
