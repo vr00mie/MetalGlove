@@ -405,6 +405,7 @@ section.module.parallax-7{
 
   section.module.parallax-1{
     max-height: 600px;
+    margin-top: -300px;
   }
    
   section.module.parallax-1 h1 img{
