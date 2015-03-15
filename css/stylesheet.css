@@ -380,7 +380,7 @@ section.module.parallax-7{
     MEDIA 320px min (iPhone 5)
 */
 
-@media all and (min-width: 300px) {
+@media all and (max-width: 320px) {
   .slider {
     height: 220px;
     margin-top: 60px !important;
