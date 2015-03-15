@@ -408,11 +408,11 @@ section.module.parallax-7{
   }
 
   section.module.parallax-1{
-    max-height: 600px;
+    max-height: 400px;
   }
    
   section.module.parallax-1 h1 img{
-    margin-top: 150px;
+    margin-top: 70px;
     margin-left: -5px;
     max-height: 230px;
   }
@@ -423,7 +423,7 @@ section.module.parallax-7{
 
   section.module.parallax-2 h1{
     font-size: 35px !important;
-    margin-top: 80px !important;
+    margin-top: 90px !important;
   }
 
   section.module.parallax-2 h1 a {
@@ -475,6 +475,10 @@ section.module.parallax-7{
 
 section.module.parallax-1 {
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/iphonebg.jpg");
+}
+
+section.module.parallax-2{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/screen1.jpg");
 }
 
 section.module.parallax-3{
@@ -603,6 +607,10 @@ section.module.parallax-1 {
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
 }
 
+section.module.parallax-2{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/screen1.jpg");
+}
+
 section.module.parallax-3{
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
 }
@@ -727,6 +735,10 @@ section.module.parallax-1 {
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
 }
 
+section.module.parallax-2{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
+}
+
 section.module.parallax-3{
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
 }
@@ -847,6 +859,10 @@ section.module.parallax-1 {
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
 }
 
+section.module.parallax-2{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
+}
+
 section.module.parallax-3{
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/updatebg.jpg");
 }
@@ -963,6 +979,10 @@ section.module.parallax-6{
 
 section.module.parallax-1 {
   background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
+}
+
+section.module.parallax-2{
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Screen01.jpg");
 }
 
 section.module.parallax-3{
