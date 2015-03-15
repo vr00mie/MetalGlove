@@ -380,7 +380,7 @@ section.module.parallax-7{
     MEDIA 320px min (iPhone 5)
 */
 
-@media all and (max-width: 320px) {
+@media all and (min-width: 320px) {
   .slider {
     height: 220px;
     margin-top: 60px !important;
@@ -408,7 +408,7 @@ section.module.parallax-7{
   }
    
   section.module.parallax-1 h1 img{
-    margin-top: 150px;
+    /*margin-top: 150px;*/
     margin-left: -5px;
     max-height: 230px;
   }
@@ -470,7 +470,7 @@ section.module.parallax-7{
   }
 
 section.module.parallax-1 {
-  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/Order+of+the+Metal+Glove+Backgorund.jpg");
+  background-image: url("https://s3-us-west-2.amazonaws.com/hiddenachievement/homesmall.jpg");
 }
 
 section.module.parallax-3{
