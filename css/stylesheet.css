@@ -404,10 +404,9 @@ section.module.parallax-7{
   }
 
   section.module.parallax {
-    height: 820px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-attachment: absolute;
+    background-attachment: relative;
     background size: cover;
     max-width: 100%;
   }
