@@ -81,12 +81,12 @@ nav#nav-main a {
  }
 
 nav#nav-main a:hover {
-  color: #ff5202;
+  color: #ff8f00;
   text-decoration: none;
 }
 
 #nav-main a.active {
-  color: #ff5202;
+  color: #ff8f00;
 }
 
 nav#nav-mobile {
@@ -254,7 +254,7 @@ section.module.parallax.parallax-2 h1 {
 
 section.module.parallax.parallax-2 a {
   text-decoration: none;
-  color: #ff5202;
+  color: #ff8f00;
   font-size: 40px;
 }
 
@@ -377,7 +377,7 @@ section.module.parallax-7{
 }
 
 .slider-dots li.active-dot {
-  color: #ff5202;
+  color: #ff8f00;
 }
 
 /*
@@ -464,14 +464,14 @@ section.module.parallax-7{
   }
 
   section.module.parallax-5 h2 img{
-    height: 315px;
+    height: 290px;
     text-align: center !important;
     margin-left: -15px !important;
     margin-top: -150px !important;
   }
 
   section.module.parallax-6 h2 img{
-    height: 315px;
+    height: 290px;
     text-align: center !important;
     margin-left: -15px !important;
     margin-top: -150px !important;
@@ -594,16 +594,16 @@ section.module.parallax-6{
   }
 
     section.module.parallax-5 h2 img{
-    height: 330px;
+    height: 300px;
     text-align: center !important;
-    margin-left: 0px !important;
-    margin-top: -80px !important;
+    margin-left: 5px !important;
+    margin-top: -100px !important;
   }
 
   section.module.parallax-6 h2 img{
-    height: 330px;
+    height: 300px;
     text-align: center !important;
-    margin-left: 0px !important;
+    margin-left: 5px !important;
     margin-top: -80px !important;
   }
 
@@ -722,14 +722,14 @@ section.module.parallax-6{
   }
 
     section.module.parallax-5 h2 img{
-    height: 350px;
+    height: 320px;
     text-align: center !important;
     margin-left: 10px !important;
     margin-top: -100px !important;
   }
 
   section.module.parallax-6 h2 img{
-    height: 350px;
+    height: 320px;
     text-align: center !important;
     margin-left: 10px !important;
     margin-top: -100px !important;
@@ -770,10 +770,12 @@ section.module.parallax-6{
   position: relative;
   width: 100%;
   margin-top: 30px !important;
+  margin-left: 0px !important;
   }
 
   .slider img {
   max-width: 400px;
+  margin-left: 100px;
   }
 
   .slide {
@@ -849,13 +851,13 @@ section.module.parallax-6{
 
   section.module.parallax-5 h2 img{
     height: 450px;
-    margin-left: 100px !important;
+    margin-left: 40px !important;
     margin-top: -70px !important;
   }
 
   section.module.parallax-6 h2 img{
     height: 450px;
-    margin-left: 100px !important;
+    margin-left: 40px !important;
     margin-top: -70px !important;
   }
 
@@ -893,12 +895,12 @@ section.module.parallax-6{
   .slider {
   position: relative;
   width: 100%;
-  margin-top: 80px !important;
+  margin-top: 120px !important;
   }
 
   .slider img {
     max-width: 780px;
-    margin-left: 80px !important;
+    margin-left: 50px !important;
   }
 
   .slide {
@@ -971,13 +973,13 @@ section.module.parallax-6{
 
   section.module.parallax-5 h2 img{
     height: 800px;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 0px !important;
   }
 
   section.module.parallax-6 h2 img{
     height: 1200px !important;
-    margin-left: 50px !important;
+    margin-left: 0px !important;
     margin-top: 0px !important;
   }
 
